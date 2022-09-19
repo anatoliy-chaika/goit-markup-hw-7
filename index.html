@@ -406,6 +406,8 @@
       </section>
     </main>
 
+    <!--Footer -->
+
     <footer class="footer">
       <div class="container footer__flex">
         <div class="footer__nav">
@@ -428,32 +430,32 @@
         </div>
 
         <div class="join">
-          <p class="join-title">Приєднуйтесь</p>
-          <ul class="list join-list">
-            <li class="join-item">
-              <a class="join-link" href=""
-                ><svg class="join-icon">
+          <p class="join__title">Приєднуйтесь</p>
+          <ul class="join__list list">
+            <li class="join__item">
+              <a class="join__link" href=""
+                ><svg class="join__icon">
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="join-item">
-              <a class="join-link" href=""
-                ><svg class="join-icon">
+            <li class="join__item">
+              <a class="join__link" href=""
+                ><svg class="join__icon">
                   <use href="./images/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
-            <li class="join-item">
-              <a class="join-link" href=""
-                ><svg class="join-icon">
+            <li class="join__item">
+              <a class="join__link" href=""
+                ><svg class="join__icon">
                   <use href="./images/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="join-item">
-              <a class="join-link" href=""
-                ><svg class="join-icon">
+            <li class="join__item">
+              <a class="join__link" href=""
+                ><svg class="join__icon">
                   <use href="./images/icons.svg#icon-linkedin"></use>
                 </svg>
               </a>
@@ -462,14 +464,14 @@
         </div>
 
         <div class="form">
-          <p class="subscription-title">Підпишіться на розсилку</p>
-          <form class="subscription">
+          <p class="form__title">Підпишіться на розсилку</p>
+          <form class="form__subscription">
             <label>
-              <input class="field" type="email" name="email" placeholder="E-mail" />
+              <input class="form__field" type="email" name="email" placeholder="E-mail" />
             </label>
-            <button class="btn-form" type="submit">
+            <button class="form__btn" type="submit">
               Підписатися
-              <svg class="icon-send">
+              <svg class="form__icon">
                 <use href="./images/icons.svg#icon-send"></use>
               </svg>
             </button>
@@ -482,42 +484,42 @@
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button class="button-modal" type="button" data-modal-close>
-          <svg class="icon-close">
+        <button class="modal__button" type="button" data-modal-close>
+          <svg class="modal__close">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
 
         <!-- Form in modal -->
 
-        <form class="register-form" name="register-form">
-          <strong class="register-form-title">Залиште свої дані, ми вам передзвонимо</strong>
-          <div class="register-form-group" role="group">
-            <label class="form-label">
-              <span class="label-text">Ім'я</span>
-              <input class="input-field" type="text" name="user-name" required />
-              <svg class="icon-form" width="18" height="18">
+        <form class="register" name="register-form">
+          <strong class="register__title">Залиште свої дані, ми вам передзвонимо</strong>
+          <div class="register__group" role="group">
+            <label class="register__label">
+              <span class="register__text">Ім'я</span>
+              <input class="register__field" type="text" name="user-name" required />
+              <svg class="register__icon" width="18" height="18">
                 <use href="./images/icons.svg#icon-person"></use>
               </svg>
             </label>
-            <label class="form-label">
-              <span class="label-text">Телефон</span>
-              <input class="input-field" type="tel" name="user-tel" required />
-              <svg class="icon-form" width="18" height="18">
+            <label class="register__label">
+              <span class="register__text">Телефон</span>
+              <input class="register__field" type="tel" name="user-tel" required />
+              <svg class="register__icon" width="18" height="18">
                 <use href="./images/icons.svg#icon-phone-black"></use>
               </svg>
             </label>
-            <label class="form-label">
-              <span class="label-text">Пошта</span>
-              <input class="input-field" type="email" name="user-email" required />
-              <svg class="icon-form" width="18" height="18">
+            <label class="register__label">
+              <span class="register__text">Пошта</span>
+              <input class="register__field" type="email" name="user-email" required />
+              <svg class="register__icon" width="18" height="18">
                 <use href="./images/icons.svg#icon-email-black"></use>
               </svg>
             </label>
-            <label class="form-label">
-              <span class="label-text">Коментар</span>
+            <label class="register__label">
+              <span class="register__text">Коментар</span>
               <textarea
-                class="comment"
+                class="register__comment"
                 name="user-comment"
                 rows="5"
                 placeholder="Введіть текст"
@@ -526,14 +528,14 @@
           </div>
 
           <label class="check">
-            <input class="checkbox" type="checkbox" name="agree-rules" />
-            <span class="check-icon"></span>
-            <span class="agree-text"
-              >Погоджуюся з розсилкою та приймаю <a class="agree" href="">Умови договору</a></span
+            <input class="check__checkbox" type="checkbox" name="agree-rules" />
+            <span class="check__icon"></span>
+            <span class="check__text"
+              >Погоджуюся з розсилкою та приймаю <a class="check__link" href="">Умови договору</a></span
             >
           </label>
 
-          <button class="btn-register-form" type="submit">Відправити</button>
+          <button class="register__btn" type="submit">Відправити</button>
         </form>
       </div>
     </div>
