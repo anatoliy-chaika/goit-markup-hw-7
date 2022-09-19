@@ -19,28 +19,36 @@
   </head>
   <body>
     <header class="header">
-      <div class="container main-nav">
+      <div class="header__main-nav container">
         <nav class="site-nav">
-          <a class="logo" href="./index.html" lang="en"><span class="accent">Web</span>Studio</a>
-          <ul class="list nav">
-            <li class="item"><a class="link" href="./index.html">Студія</a></li>
-            <li class="item"><a class="link current" href="./portfolio.html">Портфоліо</a></li>
-            <li class="item"><a class="link" href="">Контакти</a></li>
+          <a class="site-nav__logo" href="./index.html" lang="en"
+            ><span class="accent">Web</span>Studio</a
+          >
+          <ul class="nav list">
+            <li class="nav__item">
+              <a class="nav__link link" href="./index.html">Студія</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link nav__link--current link" href="./portfolio.html">Портфоліо</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link link" href="">Контакти</a>
+            </li>
           </ul>
         </nav>
 
         <ul class="contact list">
-          <li class="item">
-            <a class="cotact-link link" href="mailto:info@devstudio.com"
-              ><svg class="envelope">
+          <li class="contact__item">
+            <a class="contact-link link" href="mailto:info@devstudio.com"
+              ><svg class="contact__envelope">
                 <use href="./images/icons.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
-          <li class="item">
-            <a class="cotact-link link" href="tel:+380961111111"
-              ><svg class="telphone">
+          <li class="contact__item">
+            <a class="contact-link link" href="tel:+380961111111"
+              ><svg class="contact__telphone">
                 <use href="./images/icons.svg#icon-smartphone"></use>
               </svg>
               +38 096 111 11 11</a
