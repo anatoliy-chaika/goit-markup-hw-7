@@ -650,10 +650,6 @@ ul {
   gap: 30px;
 }
 
-/* .portfolio .item {
-  width: calc((100% - 60px) / 3);
-} */
-
 .portfolio__item {
   width: calc((100% - 60px) / 3);
   display: block;
