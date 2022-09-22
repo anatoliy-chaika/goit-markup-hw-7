@@ -38,6 +38,21 @@
   color: var(--main-background-color);
 }
 
+.adress__link--adress {
+  color: var(--main-background-color);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
 .adress__link {
   color: var(--addres-color);
   font-style: normal;
